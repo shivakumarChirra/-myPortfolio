@@ -1,3 +1,3 @@
 # my portfolio
 ** Click below to view my Live Website **
-[visit my Portfolio Website](https//shivappz.netlify.app)
+[visit my Portfolio Website](https://shivappz.netlify.app)
