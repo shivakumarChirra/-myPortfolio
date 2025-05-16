@@ -145,3 +145,19 @@ function closeExpanded(btn) {
   fullVideo.pause();
   expandedCard.style.display = "none";
 }
+
+// read me more 
+document.querySelectorAll('.read-more').forEach(button => {
+  button.addEventListener('click', function(e) {
+    e.preventDefault();
+    const card = this.closest('.blog-card');
+    const content = card.querySelector('p');
+
+    card.classList.toggle('expanded');
+    content.classList.toggle('expanded');
+
+    content.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+    this.textContent = content.classList.contains('expanded') ? 'Read Less' : 'Read More';
+  });
+});

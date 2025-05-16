@@ -18,12 +18,14 @@
 @media screen and (max-width: 768px) {
   .app-card {
     width: 220px;
-    background-color: #e8f0fe; /* Google-style light blue */
+    background-color: #e8f0fe;
+    /* Google-style light blue */
     color: #202124;
   }
 
   .button {
-    background-color: #1a73e8; /* Play Store blue */
+    background-color: #1a73e8;
+    /* Play Store blue */
     color: #fff;
   }
 
@@ -38,12 +40,14 @@
   .app-card {
     width: 100%;
     margin: 10px 0;
-    background-color: #fff3e0; /* App Store-style light peach */
+    background-color: #fff3e0;
+    /* App Store-style light peach */
     color: #212121;
   }
 
   .button {
-    background-color: #ff6f00; /* App Store-like orange */
+    background-color: #ff6f00;
+    /* App Store-like orange */
     color: #fff;
   }
 
@@ -69,11 +73,13 @@
   .app-row {
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px; /* space between cards */
+    gap: 10px;
+    /* space between cards */
   }
 
   .app-card {
-    width: 45%;  /* fits 2 per row with spacing */
+    width: 45%;
+    /* fits 2 per row with spacing */
     margin: 5px;
     background-color: #fff3e0;
     color: #212121;
@@ -88,7 +94,8 @@
 /* Extra small screens: show 3-4 per row */
 @media screen and (max-width: 400px) {
   .app-card {
-    width: 42%; /* tighter fit, possibly 2–3 per row depending on device */
+    width: 42%;
+    /* tighter fit, possibly 2–3 per row depending on device */
     margin: 4px;
   }
 
@@ -125,17 +132,19 @@
 /* media queris for the extended event  */
 /* Mobile styles */
 @media (max-width: 600px) {
-    .extended-content {
-        width: 90%; /* Adjust for smaller screens */
-        height: 50%;
-    }
+  .extended-content {
+    width: 90%;
+    /* Adjust for smaller screens */
+    height: 50%;
+  }
 }
 
 @media (min-width: 601px) {
-    .extended-content {
-        width: 300px; /* Default size for larger screens */
-        height: 200px;
-    }
+  .extended-content {
+    width: 300px;
+    /* Default size for larger screens */
+    height: 200px;
+  }
 }
 
 /* herosection */
@@ -156,5 +165,61 @@
   .hero-image img {
     max-width: 200px;
     margin-top: 20px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .blog-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-card {
+    width: 100%;
+  }
+
+  .blog-title {
+    font-size: 2rem;
+  }
+
+  .blog-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .blog-card p {
+    font-size: 0.9rem;
+  }
+
+  .blog-card img {
+    height: 150px;
+
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  .blog-card img {
+    height: 150px;
+    object-fit: cover;
+    /* Let it fill space nicely on small screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-card .image-container {
+    width: 80%;
   }
 }
