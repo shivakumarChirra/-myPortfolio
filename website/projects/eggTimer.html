@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Xylophone App</title>
+  <title>Egg Biled Timer App</title>
   <link rel="stylesheet" href="style.css">
 <style>
 
@@ -48,13 +48,13 @@ header a img {
 }
 
 header a:hover {
-  color: #ff3d2e;
+  color: #767170;
 }
 
 /* Animated Title */
 .animated-title {
   font-size: 2.5rem;
-  color: #ff6f61;
+  color: #9cd2e0;
   position: relative;
   display: inline-block;
   margin-top: 10px;
@@ -221,13 +221,7 @@ header a:hover {
   animation: fadeIn 0.5s ease forwards;
 }
 
-.description ul li::before {
-  content: '♪';
-  position: absolute;
-  left: 0;
-  color: #ff6f61;
-  font-size: 1.2rem;
-}
+
 
 .description ul li:nth-child(1) { animation-delay: 0.2s; }
 .description ul li:nth-child(2) { animation-delay: 0.4s; }
@@ -304,43 +298,40 @@ footer p {
     window.close(); 
   }
 </script>
-    <h1 class="animated-title">Xylophone App</h1>
+    <h1 class="animated-title">Egg Boiled Timer</h1>
   </header>
 
   <section class="project-details">
     <div class="media-gallery">
-      <img src="../images/l.png" alt="Screenshot 1">
-      <img src="../images/l.png" alt="Screenshot 2">
-      <img src="../images/l.png" alt="Screenshot 3">
-      <img src="../images/l.png" alt="Screenshot 4">
+      <img src="../images/egg1.png" alt="Screenshot 1">
+      <img src="../images/egg2.png" alt="Screenshot 2">
+      <img src="../images/egg3.png" alt="Screenshot 3">
+      <img src="../images/egg1.png" alt="Screenshot 4">
     </div>
     <div class="video-container">
       <video controls>
-        <source src="../videos/xylophoneVideo.mp4" type="video/mp4">
+        <source src="../videos/eggVideo.mp4" type="video/mp4">
        
       </video>
     </div>
-    <div class="description">
-      <h2>About the App</h2>
-      <p>Xylophone App is a simple yet engaging musical application developed by Shivappz as part of my early journey into iOS development. Designed with a clean user interface and built using Swift and UIKit, this app allows users to play different musical notes by tapping colorful keys on the screen — just like a real xylophone.
+   <div class="description">
+  <h2>About the App</h2>
+  <p>Egg Timer App is a simple yet useful timing application developed by Shivappz as part of my early journey into iOS development. Designed with a clean user interface and built using Swift and UIKit, this app allows users to choose between different egg boiling preferences (Soft, Medium, Hard), starts a countdown, and plays an alarm when the time is up. A stop button allows users to cancel the timer or stop the alarm sound.
 
-This app was one of my first projects while learning Swift, helping me understand key concepts such as user interaction, audio playback, and UI layout management. It reflects my growth as a developer passionate about building interactive and fun applications from scratch..</p>
+This app was one of my first projects while learning Swift, helping me understand key concepts such as user interaction, timers, audio playback, and UI layout management. It reflects my growth as a developer passionate about building practical and interactive applications from scratch.</p>
 
-      <h3>Technologies Used:</h3>
-      <ul>
-        <li>Button interaction using @IBAction</li>
-        <li>Playing sound using AVFoundation</li>
-        <li>Managing UI layouts with Auto Layout and Stack Views</li><li>
-          
-Part of the Shivappz suite of apps — a collection showcasing my journey and projects as an iOS developer.
+  <h3>Technologies Used:</h3>
+  <ul>
+    <li> 🔘 Button interaction using @IBAction</li>
+    <li> ⏱️ Countdown timer using Timer</li>
+    <li> 🔔 Playing sound using AVFoundation</li>
+    <li> 📐 Managing UI layouts with Auto Layout and Stack Views</li>
+    <li><img width="30px" src="../images/slogo.png"> Part of the Shivappz suite of apps — a collection showcasing my journey and projects as an iOS developer.</li>
+  </ul>
 
+  <a href="https://github.com/shivakumarChirra/egg-boiled-timer" target="_blank">GitHub Repository</a>
+</div>
 
-        </li>
-      </ul>
-     
-
-      <a href="https://github.com/shivappz/xylophone" target="_blank">GitHub Repository</a>
-    </div>
   </section>
 
   <footer>
